@@ -1,6 +1,6 @@
 # Task Manager
 
-Task Manager is a web application built using the popular PHP framework Laravel. It serves as a platform for creating tasks to be accomplished, providing a straightforward process to mark tasks as complete. The application incorporates essential CRUD functionalities for seamless task management.
+Task Manager is a web application built using the popular PHP framework Laravel and designed with the CSS framework Tailwind, Alpine js was also used to make the web application interactive. It serves as a platform for creating tasks to be accomplished, providing a straightforward process to mark tasks as complete. The application incorporates essential CRUD functionalities for seamless task management.
 
 ## Table of Contents
 
