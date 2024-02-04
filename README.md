@@ -29,7 +29,7 @@ These instructions will help you get a copy of the project up and running on you
 Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone [https://github.com/your-username/your-repo](https://github.com/Olami2596/LARAVEL-TAILWIND-TASK-MANAGER).git
    ```
 
 Navigate to the project directory:
