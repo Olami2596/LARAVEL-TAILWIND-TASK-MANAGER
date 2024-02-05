@@ -8,10 +8,23 @@ use App\Http\Requests\TaskRequest;
 
 class TaskController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $tasks = Task::latest()->paginate(10);
-        return view('index', compact('tasks'));
+        $title = $request->input('title');
+        $filter = $request->input('filter', '');
+
+        $tasks = Task::when($title, fn ($query, $title) => $query->title($title));
+
+        $tasks = match ($filter) {
+            'completed' => $tasks->completed(),
+            'not_completed' => $tasks->notCompleted(),
+            default => $tasks->latest()
+        };
+
+        // Fetch paginated tasks
+        $tasks = $tasks->paginate(10);
+
+        return view('index', ['tasks' => $tasks]);
     }
 
     public function create()

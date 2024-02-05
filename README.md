@@ -9,7 +9,6 @@ Task Manager is a web application built using the popular PHP framework Laravel 
   - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Contributing](#contributing)
 
   
 ## Getting Started
@@ -29,7 +28,7 @@ These instructions will help you get a copy of the project up and running on you
 Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone [https://github.com/your-username/your-repo](https://github.com/Olami2596/LARAVEL-TAILWIND-TASK-MANAGER).git
    ```
 
 Navigate to the project directory:
@@ -74,9 +73,9 @@ Start the development server:
 
    After opening the application, navigate to the navigation bar where you can find an option to "Add New Task." Click on it to create a new task.
 
-2. **Viewing Tasks on the Home Page:**
+2. **Viewing, Searching and Filtering Tasks on the Home Page:**
 
-   On the home page, newly added tasks will be displayed in black. You can easily identify and manage your tasks from this central hub.
+   On the home page, newly added tasks will be displayed in black. You can easily identify and manage your tasks from this central hub. You can also search for tasks and filter tasks based on whether it has been completed or not.
 
 3. **Managing Individual Tasks:**
 
@@ -93,61 +92,18 @@ Start the development server:
    
    Easily add new tasks through the application's navigation bar. Streamlined task creation provides a quick way to organize your to-do list.
 
-2. **Visual Task Representation:**
+2. **Task Search and Filtering:**
+   
+   Effortlessly search for tasks and filter them based on their completion status. Quickly find the tasks you're looking for by specifying whether they have been completed or not.
+
+3. **Visual Task Representation:**
 
    Tasks are visually represented in black on the home page, providing a clear and organized view of your current tasks.
 
-3. **Task Detail Pages:**
+4. **Task Detail Pages:**
 
    Clicking on each task on the home page leads to individual task pages. Here, you can edit or delete tasks, tailoring your task list to your evolving needs.
 
-4. **Completion Tracking:**
+5. **Completion Tracking:**
 
    Utilize the "Mark as Completed" feature to signify task completion. Completed tasks are visually highlighted in green on the home page, offering a convenient way to identify accomplished items at a glance.
-
-
-### Contributing
-
-You can contribute to the project with the following steps:
-
-
-Fork the Project:
-
-Fork the project by clicking on the 'Fork' button on the top right corner of the GitHub page. This will create a copy of the repository in your GitHub account.
-
-
-Create Your Feature Branch:
-
-Create a new branch for your feature:
-
-   ```bash
-       git checkout -b feature/YourFeature
-
-   ```
-
-Commit Your Changes:
-
-Make your changes and commit them with a meaningful message:
-
-   ```bash
-    git commit -m 'Add some feature'
-
-   ```
-
-Push to the Branch:
-
-Push your changes to your branch on your forked repository:
-
-   ```bash
-    git push origin feature/YourFeature
-
-   ```
-
-Open a Pull Request:
-
-Open a pull request on the main repository. Provide a clear and concise description of your changes. This will initiate a discussion around your contribution.
-
-Thank you for considering contributing to this project!
-
-
-
